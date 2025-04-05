@@ -3,7 +3,7 @@ import google.generativeai as genai
 # Load Gemini model with API key
 def load_gemini(api_key):
     genai.configure(api_key=api_key)
-    return genai.GenerativeModel('gemini-2.5-pro-preview-03-25')
+    return genai.GenerativeModel('gemini-1.5-flash')
 
 # Analyze sentiment and department using Gemini
 def analyze_feedback(model, feedback_text):
