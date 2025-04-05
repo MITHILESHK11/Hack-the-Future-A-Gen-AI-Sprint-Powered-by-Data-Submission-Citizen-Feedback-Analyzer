@@ -7,7 +7,7 @@ load_dotenv()
 def load_gemini(api_key=None):
     key = api_key or os.getenv("GEMINI_API_KEY")
     genai.configure(api_key=key)
-    return genai.GenerativeModel('gemini-pro')
+    return genai.GenerativeModel('gemini-2.0-flash')
 
 def analyze_feedback(model, feedback_text):
     prompt = f"""
