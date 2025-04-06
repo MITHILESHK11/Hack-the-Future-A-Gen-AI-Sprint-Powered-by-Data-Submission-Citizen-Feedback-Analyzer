@@ -25,6 +25,25 @@ An intelligent, Gemini-powered feedback analysis system built with **Streamlit**
 - [Matplotlib + Pandas](https://pandas.pydata.org/)
 
 ---
+## 🚀 Try It Live
+
+You can try the **Citizen Feedback Analyzer** directly in your browser — no installation needed!
+
+🔗 [Click here to open the app](https://citizen-feedback-analyzer.streamlit.app/)
+
+### 🧪 What You Can Do:
+- ✍️ Enter individual citizen feedback and get:
+  - ✅ Sentiment (Positive, Neutral, Negative)
+  - 🏛️ Relevant Department Classification
+  - 💡 Explanation of the analysis
+- 📁 Upload an Excel (.xlsx) file for **batch processing** of multiple feedbacks.
+- 📊 View dynamic visualizations like:
+  - Pie charts of sentiment distribution
+  - Bar graphs for department-wise feedback volume
+- 📥 Download the **processed feedback** as a CSV with all AI-generated insights.
+
+> 💡 **Note**: If prompted, you can securely enter your own **Google Gemini API Key** in the sidebar to use the app.
+---
 
 ## 📦 Setup Instructions
 
